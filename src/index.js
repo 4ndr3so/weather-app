@@ -5,9 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  //<React.StrictMode> ayuda a advertir efectos secundarios, ciclos vida inseguros
+
+    <App />,
   document.getElementById('root')
 );
 
